@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3240FF7B1E600D81006CDC93 /* CASpringAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3240FF7A1E600D81006CDC93 /* CASpringAnimationViewController.m */; };
+		3240FF7F1E603553006CDC93 /* CAKeyframeAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3240FF7E1E603553006CDC93 /* CAKeyframeAnimationViewController.m */; };
+		3281FB001E3729CB00BFDE8C /* AnimationGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3281FAFF1E3729CB00BFDE8C /* AnimationGroupViewController.m */; };
+		3298FF101E656614008D1FEE /* ShapeLayerAnimateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3298FF0E1E656614008D1FEE /* ShapeLayerAnimateViewController.m */; };
+		3298FF111E656614008D1FEE /* ShapeLayerAnimateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3298FF0F1E656614008D1FEE /* ShapeLayerAnimateViewController.xib */; };
+		32BC14311E6673F500C67DF2 /* AvatarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32BC14301E6673F500C67DF2 /* AvatarView.m */; };
 		FB20A4611D3C876D00883A58 /* TransitionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB20A4601D3C876D00883A58 /* TransitionsViewController.m */; };
 		FB20A4641D3CA7E700883A58 /* KeyframeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB20A4631D3CA7E700883A58 /* KeyframeViewController.m */; };
 		FB2FA1A01D38E93500C3244A /* SpringAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2FA19F1D38E93500C3244A /* SpringAnimationViewController.m */; };
@@ -27,6 +33,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3240FF791E600D81006CDC93 /* CASpringAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CASpringAnimationViewController.h; sourceTree = "<group>"; };
+		3240FF7A1E600D81006CDC93 /* CASpringAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CASpringAnimationViewController.m; sourceTree = "<group>"; };
+		3240FF7D1E603553006CDC93 /* CAKeyframeAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAKeyframeAnimationViewController.h; sourceTree = "<group>"; };
+		3240FF7E1E603553006CDC93 /* CAKeyframeAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAKeyframeAnimationViewController.m; sourceTree = "<group>"; };
+		3281FAFE1E3729CB00BFDE8C /* AnimationGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationGroupViewController.h; sourceTree = "<group>"; };
+		3281FAFF1E3729CB00BFDE8C /* AnimationGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationGroupViewController.m; sourceTree = "<group>"; };
+		3298FF0D1E656614008D1FEE /* ShapeLayerAnimateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShapeLayerAnimateViewController.h; sourceTree = "<group>"; };
+		3298FF0E1E656614008D1FEE /* ShapeLayerAnimateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShapeLayerAnimateViewController.m; sourceTree = "<group>"; };
+		3298FF0F1E656614008D1FEE /* ShapeLayerAnimateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShapeLayerAnimateViewController.xib; sourceTree = "<group>"; };
+		32BC142F1E6673F500C67DF2 /* AvatarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvatarView.h; sourceTree = "<group>"; };
+		32BC14301E6673F500C67DF2 /* AvatarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvatarView.m; sourceTree = "<group>"; };
 		FB20A45F1D3C876D00883A58 /* TransitionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionsViewController.h; sourceTree = "<group>"; };
 		FB20A4601D3C876D00883A58 /* TransitionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionsViewController.m; sourceTree = "<group>"; };
 		FB20A4621D3CA7E700883A58 /* KeyframeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyframeViewController.h; sourceTree = "<group>"; };
@@ -72,9 +89,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3298FF071E655CF8008D1FEE /* CALayer */ = {
+			isa = PBXGroup;
+			children = (
+				3298FF0D1E656614008D1FEE /* ShapeLayerAnimateViewController.h */,
+				3298FF0E1E656614008D1FEE /* ShapeLayerAnimateViewController.m */,
+				3298FF0F1E656614008D1FEE /* ShapeLayerAnimateViewController.xib */,
+				32BC142F1E6673F500C67DF2 /* AvatarView.h */,
+				32BC14301E6673F500C67DF2 /* AvatarView.m */,
+			);
+			name = CALayer;
+			sourceTree = "<group>";
+		};
 		FB20A45E1D3C873200883A58 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				3298FF071E655CF8008D1FEE /* CALayer */,
 				FB82F4591D4F40B8004C9B32 /* CoreAnimation */,
 				FB82F4581D4F409C004C9B32 /* UIKit */,
 			);
@@ -118,6 +148,12 @@
 				FB66B2021D40B0A2001517C0 /* LayerAnimationViewController.m */,
 				FB82F45A1D4F4113004C9B32 /* AnimationnDelegateViewController.h */,
 				FB82F45B1D4F4113004C9B32 /* AnimationnDelegateViewController.m */,
+				3281FAFE1E3729CB00BFDE8C /* AnimationGroupViewController.h */,
+				3281FAFF1E3729CB00BFDE8C /* AnimationGroupViewController.m */,
+				3240FF791E600D81006CDC93 /* CASpringAnimationViewController.h */,
+				3240FF7A1E600D81006CDC93 /* CASpringAnimationViewController.m */,
+				3240FF7D1E603553006CDC93 /* CAKeyframeAnimationViewController.h */,
+				3240FF7E1E603553006CDC93 /* CAKeyframeAnimationViewController.m */,
 			);
 			name = CoreAnimation;
 			sourceTree = "<group>";
@@ -223,6 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3298FF111E656614008D1FEE /* ShapeLayerAnimateViewController.xib in Resources */,
 				FBEBB23D1D34EFC40054DB63 /* LaunchScreen.storyboard in Resources */,
 				FBEBB23A1D34EFC40054DB63 /* Assets.xcassets in Resources */,
 				FBEBB2381D34EFC40054DB63 /* Main.storyboard in Resources */,
@@ -237,13 +274,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB2FA1A01D38E93500C3244A /* SpringAnimationViewController.m in Sources */,
+				3281FB001E3729CB00BFDE8C /* AnimationGroupViewController.m in Sources */,
 				FB20A4611D3C876D00883A58 /* TransitionsViewController.m in Sources */,
 				FBEBB2351D34EFC40054DB63 /* ViewController.m in Sources */,
 				FBEBB2461D34F6BD0054DB63 /* BaseViewController.m in Sources */,
 				FBA717521D35E1E10047B077 /* OptionsParameterViewController.m in Sources */,
+				3240FF7B1E600D81006CDC93 /* CASpringAnimationViewController.m in Sources */,
 				FBA7174F1D35D2F70047B077 /* TransformAnimationViewController.m in Sources */,
+				3298FF101E656614008D1FEE /* ShapeLayerAnimateViewController.m in Sources */,
 				FB20A4641D3CA7E700883A58 /* KeyframeViewController.m in Sources */,
 				FBEBB2321D34EFC40054DB63 /* AppDelegate.m in Sources */,
+				3240FF7F1E603553006CDC93 /* CAKeyframeAnimationViewController.m in Sources */,
+				32BC14311E6673F500C67DF2 /* AvatarView.m in Sources */,
 				FB82F45C1D4F4113004C9B32 /* AnimationnDelegateViewController.m in Sources */,
 				FB6F27AE1D59D3A100018C99 /* HYNoticeView.m in Sources */,
 				FB8CCD9F1D3731450015306F /* WeiboViewController.m in Sources */,

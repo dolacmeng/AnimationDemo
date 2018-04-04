@@ -19,8 +19,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    titleArray = @[@"基本动画",@"变换动画（transform）",@"options参数",@"弹簧动画",@"Transitions动画",@"关键帧动画",@"layer简单动画",@"动画代理"];
-    vcArray = @[@"BasisAnimationViewController",@"TransformAnimationViewController",@"OptionsParameterViewController",@"SpringAnimationViewController",@"TransitionsViewController",@"KeyframeViewController",@"LayerAnimationViewController",@"AnimationnDelegateViewController"];
+    titleArray = @[@"基本动画",@"变换动画（transform）",@"options参数",@"弹簧动画",@"Transitions动画",@"关键帧动画",@"layer简单动画",@"动画代理",@"AnimationGroup",@"CA弹簧",@"CAKeyframeAnimation",@"ShapeLayer"];
+    vcArray = @[@"BasisAnimationViewController",@"TransformAnimationViewController",@"OptionsParameterViewController",@"SpringAnimationViewController",@"TransitionsViewController",@"KeyframeViewController",@"LayerAnimationViewController",@"AnimationnDelegateViewController",@"AnimationGroupViewController",@"CASpringAnimationViewController",@"CAKeyframeAnimationViewController",@"ShapeLayerAnimateViewController"];
 }
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
